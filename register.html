@@ -6,6 +6,8 @@
     <title>Registration</title>
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/register.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <h1><center>🛒The DENIM Store</center></h1>
@@ -23,26 +25,31 @@
         <center><h2 id="us">Registration Form</h2></center>
         <h3>Login Information:</h3> 
         <table>
-            <tr>
-                <td><label for="uname" class="lab">Username: </label></td>
-                <td><input class="in" type="text" name="your name" id="uname" placeholder=" Write name..."></td>
-            </tr>
-            <tr>
-                <td><label for="email" class="lab">Email: </label></td>
-                <td><input class="in" type="email" name="your email" id="email" placeholder=" Write email..."></td>
-            </tr>
-            <tr>
-                <td><label for="password" class="lab">Password: </label></td>
-                <td><input class="in" type="password" name="your pass" id="password" placeholder=" Write password..."></td>
-            </tr>
+            <div class="inputContainer">
+               <label for="uname" class="lab">Username:</label>
+               <i class="fa fa-user icon"> </i>
+                <input type="name" name="my name" id="unmae" placeholder=" Write name...." class="Field in">
+            </div>
+
+            <div class="inputContainer">
+                <label for="uname" class="lab email">Email:</label>
+                <i class="fa fa-envelope icon"> </i>
+                <input class="in Field" type="email" name="your email" id="email" placeholder=" Write email...">      
+            </div>
+            <div class="inputContainer">
+                <label for="uname" class="lab">Password: </label>
+                <i class="fa fa-lock icon"> </i>
+                <input class="in Field" type="password" name="your pass" id="password" placeholder=" Write password...">
+            </div>
         </table> 
 
         <h3>Personal Information: </h3> 
         <table>
-            <tr>
-                <td><label for="name" class="lab"class="lab">Name:</label></td>
-                <td><input class="in nm" type="text" name="name" id="name" placeholder=" Write name..."></td>
-            </tr>
+            <div class="inputContainer">
+                <label for="uname" class="lab">Username:</label>
+                <i class="fa fa-user icon"> </i>
+                 <input type="name" name="my name" id="unmae" placeholder=" Write name...." class="Field in">
+             </div>
             <tr >
                 <td><p class="lab">Gender:</p></td>
                 <td ><input type="radio" name="gender" id="" value="male" class="gender">
@@ -78,14 +85,14 @@
      
         <h3>Shipping Information: </h3>
         <table>
-            <tr>
-                <td><label for="address" class="lab">Address: </label></td>
-                <td><textarea name="textarea" id="" cols="60" rows="7" class=" text"
-                     placeholder=" Write address..."></textarea></td>
-            </tr>
+            <label for="address" class="lab">Address: </label>
+            <div class="inputContainer">     
+            <i class="fa fa-bookmark icon i"> </i>
+            <textarea name="text-area" id="text-area" cols="60" rows="7" placeholder=" Write address..."></textarea>
+            </div>
             <tr>
                 <td><label for="city" class="lab">City: </label></td>
-                <td> <select class="in">
+                <td> <select class="in nm cit">
                     <option value="">Select city</option>
                     <option value="">faisalabad</option>
                     <option value="">lahore</option>
@@ -94,11 +101,15 @@
                     </select>
                 </td>
             </tr>
-            <tr> 
-                <td><label for="" class="lab">Postal Code: </label></td>
-                <td><input type="number" name="code" id="" class="in code" placeholder=" Postal code..."></td>
-            </tr>
         </table>
+            <div class="inputContainer">
+                <label for="" class="lab">Postal Code: </label>
+                <i class="fa  fa-code icon"> </i>
+                <input type="number" name="code" id="" class="in Field" placeholder=" Postal code...">
+             </div>
+
+          
+       
         
     <button class="btnn"><a href="" class="">Register</a></button>
     <center>
