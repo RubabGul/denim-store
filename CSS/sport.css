@@ -33,22 +33,22 @@ body{
     border: 5px solid darkgoldenrod;
     margin: 23px;
 }
+.btn-group{
+    text-align: center;
+}
 .home{
-    margin-left: 40%;
-    margin-bottom: 10px;
-    //background-color:rgb(201, 204, 204);
+    margin: 0px;
+    margin-bottom: 10px !important;
     border: 2px solid gray;
     border-radius: 10px;
     width: 200px;
     height: 30px;
+    
     color: gray;
 }
-.btn-group button {
-        background-color: #4CAF50; /* Green background */
-        border: 1px solid green; /* Green border */
-        color: white; /* White text */
-        padding: 10px 24px; /* Some padding */
-        cursor: pointer; /* Pointer/hand icon */
-        //float: left; /* Float the buttons side by side*/
-        display: inline;
+a{
+    display: inline;
+}
+a2{
+    display:inline;
 }
