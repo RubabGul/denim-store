@@ -41,6 +41,14 @@ p{
     margin: 15px;
     margin-left: 22px !important;
 }
+.see{
+    background-color:rgb(201, 204, 204);
+    width: 150px;
+    height: 40px;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
 .home{
         margin-top: px;
         margin-bottom: 10px;
@@ -48,4 +56,5 @@ p{
         width: 200px;
         border: 2px solid rgb(187, 179, 179);;
         border-radius: 7px; 
+        
 }

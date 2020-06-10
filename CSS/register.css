@@ -10,6 +10,32 @@ body{
     margin-left: 50px;
     background-color:rgb(201, 204, 204) ;
 }
+.inputContainer i {
+    position: absolute;
+ }
+ .inputContainer {
+    width: 100%;
+    margin-bottom: 10px;
+ }
+ .icon {
+    padding: 13px;
+    padding-left: 17px !important;
+    color:rgb(94, 89, 89);
+   // color: rgb(49, 0, 128);
+    width: 70px;
+    margin-left: 20px;
+    text-align: left;
+ }
+ .Field {
+    padding-left: 25px;
+    text-align: left;
+    //font-weight: 500;
+    color:gray;
+
+ }
+ .email{
+    margin-right: 32px;
+ }
 #us{
     //margin-left: 40px;
     padding-top: 15px;
@@ -36,8 +62,28 @@ h3{
     margin-top: 7px;
 }
 .nm{
-    margin-left:50px !important ;
+    margin-left:45px !important ;
+    width: 273px !important;
 }
+textarea{
+    padding-left: 15px;
+    font-weight: 500;
+    margin-left: 173px;
+    margin-top: -15px;
+    border-radius: 7px;
+    border: 2px solid rgb(187, 179, 179);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .i{
+     margin-left: 160px;
+     margin-top: -23px !important;
+ }
+ textarea::placeholder{
+     padding-left: 10px;
+ }
+ .cit{
+     margin-left: 85px !important;
+ }
 .gender{
     margin-left: 55px;
 }

@@ -62,7 +62,7 @@ figcaption{
 
 
 .contact-me{
-    color: gray;
+    //color: rgb(99, 93, 93);
 }
 .btn{
     background-color:rgb(201, 204, 204);
@@ -87,7 +87,7 @@ a{
     text-decoration: none;
 }
 .copy{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 
 

@@ -10,6 +10,31 @@ body{
         margin-left: 50px;
         background-color:rgb(201, 204, 204) ;
     }
+    .inputContainer i {
+        position: absolute;
+     }
+     .inputContainer {
+        width: 100%;
+        margin-bottom: 10px;
+     }
+     .icon {
+        padding: 13px;
+        padding-left: 17px !important;
+        color:rgb(94, 89, 89);
+       // color: rgb(49, 0, 128);
+        width: 70px;
+        margin-left: 20px;
+        text-align: left;
+     }
+     .Field {
+        padding-left: 25px;
+        text-align: left;
+        color:gray;
+     }
+     .email{
+        margin-right: 32px;
+     }
+
     #us{
         //margin-left: 40px;
         padding-top: 15px;
