@@ -60,11 +60,11 @@ figcaption{
     margin: 0px;
 }
 
-
-.contact-me{
+/*
+contact-me{
     //color: rgb(99, 93, 93);
 }
-.btn{
+btn{
     background-color:rgb(201, 204, 204);
     width: 150px;
     height: 40px;
@@ -73,22 +73,22 @@ figcaption{
     border: 2px solid gray;
     border-radius: 10px;
 }
-.bottom-container{   
+bottom-container{   
    /* border: 10px black solid;
     margin-left: 460px;*/
-    background-color:rgb(201, 204, 204);
+   /* background-color:rgb(201, 204, 204);
     padding: 50px 0 30px 0;
     margin: 20px 20px 0px 20px;
 
 }
-a{
+{
     color: gray;
     margin: 10px 20px 10px 20px;
     text-decoration: none;
 }
-.copy{
+copy{
     font-size: 0.7rem;
-}
+}*
 
 
 
